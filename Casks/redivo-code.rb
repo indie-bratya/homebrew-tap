@@ -1,9 +1,9 @@
 cask "redivo-code" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.11-redivo.4"
-  sha256 arm:   "754ba415bf94ec31fcc3a3e2aa075d87d1a00d1d310de67e209650ed6af706f2",
-         intel: "a817912095d59878b1c08830e3d3828fc2ddf45bf8b8ae022919094976cd30b9"
+  version "0.1.11-redivo.5"
+  sha256 arm:   "be07c53ec10108b85841c649cc73626cb54095f30d62c33de458ca5499884375",
+         intel: "12dd970cbd5c24d65343e7d1f9ccca660a15facaee1e4c8e27d44d785737bcd1"
 
   url "https://ai.redivo.ru/releases/files/Redivo-Code-#{version}-mac-#{arch}.dmg"
   name "Redivo Code"
